@@ -1,0 +1,16 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...825....5S/abstract
+#AUTHOR, Song+
+#YEAR, 2014
+#REDSHIFT, 7
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+7.25, -1.63, 0.54, 0.54	
+7.75, -2.07, 0.41, 0.45	
+8.25, -2.49, 0.32, 0.38	
+8.75, -2.96, 0.30, 0.32	
+9.25, -3.47, 0.35, 0.32	
+9.75, -4.11, 0.57, 0.41	
+10.25, -4.61, 0.82, 0.72
+10.75, -5.24, 0.57, 0.90
