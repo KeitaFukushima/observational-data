@@ -37,7 +37,7 @@ def load_obsdata(tag, z1, z2):
   for f in fname:
     if f == "":
       continue
-    print("\nreading "+f)
+    print("\nReading "+f)
     x = [] # x-axis
     y = [] # y-axis
     sm = [] # sigma minus
@@ -50,8 +50,7 @@ def load_obsdata(tag, z1, z2):
           break # EOF
         line.rstrip(os.linesep)
 
-        word = line.split(",")
-        word = [w.strip() for w in word]
+        word = [w.strip() for w in line.split(",")]
         if word[0] == "#REF":
           ref = word[1]
         if word[0] == "#AUTHOR":
@@ -77,12 +76,12 @@ def load_obsdata(tag, z1, z2):
     
     # skip data if out of redshift range
     if float(z) < z1 or float(z) > z2:
-      print("out of redshift range. skipping...")
+      print("Out of redshift range. skipping...")
       continue
     
-    print("loading data of "+author+" "+year+" at z="+z)
-    print("x-axis: "+xaxis+", y-axis: "+yaxis)
-    print("reference: "+ref)
+    print("Loading data of "+author.replace("+", " et al.")+" ("+year+") at z="+z)
+    print("X-axis: "+xaxis+", Y-axis: "+yaxis)
+    print("Reference: "+ref)
     data = {
       "x" : np.array(x),
       "y" : np.array(y),
