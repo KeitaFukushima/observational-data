@@ -2,6 +2,7 @@ import numpy as np
 import subprocess
 import os
 
+# TODO: salpeter/chabrier conversion factor 1.7
 def load_obsdata(tag, z1, z2):
   """
   returns observational data points
@@ -38,7 +39,7 @@ def load_obsdata(tag, z1, z2):
   if rootdir == None:
     print("ERROR: environment variable OBSDATA_DIR is not set")
     exit()
-  cmd = "ls -U1 "+rootdir+"/data/"+tag+"/*.csv"
+  cmd = "ls -v1 "+rootdir+"/data/"+tag+"/*.csv"
   cp = subprocess.run(cmd, capture_output=True, text=True, shell=True)
   fname = cp.stdout.split("\n")
   for f in fname:

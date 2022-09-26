@@ -1,0 +1,15 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2021ApJ...922...29S/abstract
+#AUTHOR, Stefanon+
+#YEAR, 2021
+#REDSHIFT, 8
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Spitzer/IRAC over the XDF, HUDF, ERS, and all CALDELS fields combined with HST LBGs catalog, Salpeter IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+7.900, -2.378, 0.184, 0.174
+8.400, -3.050, 0.115, 0.107
+8.900, -3.449, 0.135, 0.125
+9.350, -3.955, 0.206, 0.180
+9.750, -4.228, 0.254, 0.212
+10.150, -5.148, 0.879, 0.519

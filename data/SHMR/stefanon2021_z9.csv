@@ -1,0 +1,12 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2021ApJ...922...29S/abstract
+#AUTHOR, Stefanon+
+#YEAR, 2021
+#REDSHIFT, 8.90
+#COLUMN1, log M_h [M_sun]
+#COLUMN2, log (M_*/M_h)
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Abundance matching of SMF by Stefanon+ (2021) and HMF by Behroozi+ (2013), Salpeter IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)	
+10.550, -2.301, 0.284, 0.170
+10.850, -2.097, 0.270, 0.158
+#>10.93, <-1.260

@@ -1,0 +1,10 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2017ApJ...843...36S/abstract
+#AUTHOR, Stefanon+
+#YEAR, 2017
+#REDSHIFT, 7
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, derived from rest-frame optical LF observed with Spitzer/IRAC over the CANDELS/GOODS-N,S and COSMOS/UltraVISTA fields, Chabrier IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+9.840, -4.131, 0.723, 0.381
