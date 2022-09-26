@@ -66,6 +66,8 @@ def load_obsdata(tag, z1, z2):
           xaxis = word[1]
         if word[0] == "#COLUMN2":
           yaxis = word[1]
+        if word[0] == "#NOTE":
+          note = line.lstrip("#")
         
         # skip header
         if word[0][0] == "#":
@@ -85,6 +87,7 @@ def load_obsdata(tag, z1, z2):
     print("Loading data of "+author.replace("+", " et al.")+" ("+year+") at z="+z)
     print("X-axis: "+xaxis+", Y-axis: "+yaxis)
     print("Reference: "+ref)
+    print(note)
     data = {
       "x" : np.array(x),
       "y" : np.array(y),

@@ -1,11 +1,12 @@
 #REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...825....5S/abstract
 #AUTHOR, Song+
-#YEAR, 2014
+#YEAR, 2016
 #REDSHIFT, 6
 #COLUMN1, log M_* [M_sun]
 #COLUMN2, log Phi [dex^-1 Mpc^-3]
 #COLUMN3, -sigma
 #COLUMN4, +sigma
+#NOTE, UV luminosity function observed with HST by Finkelstein+ (2015) convolved with M_*-M_UV relation obtained from HST imaging by Finkelstein+ (2015) and Spitzer/IRAC data over CANDELS/GOODS/HUDF fields
 7.25, -1.47, 0.32, 0.35	
 7.75, -1.81, 0.28, 0.23	
 8.25, -2.26, 0.16, 0.21	
