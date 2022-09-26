@@ -1,10 +1,17 @@
 # observational-data
 
-Example:
+Usage
+=====
+Set environment variables as follows
+```
+export OBSDATA_DIR=/absolute/path/to/this/directory
+export PYTHONPATH=$OBSDATA_DIR:$PYTHONPATH
+```
+
+Example
+=======
 ``` python
 import matplotlib.pyplot as plt
-import sys
-sys.path.insert(0, 'path/to/observational-data')
 import load_obsdata as obs
 
 cmap = plt.get_cmap("tab10")
@@ -15,6 +22,7 @@ def lcol(i):
 def lsty(i):
   return linestyles[i % len(linestyles)]
 
+# loading galaxy stellar mass function from z=4 to 6
 d = obs.load_obsdata("SMF", 4, 6)
 
 plt.figure(facecolor="white")
@@ -28,3 +36,4 @@ plt.legend()
 plt.savefig("example.png")
 plt.close()
 ```
+<img src="./example.png" width=500px>

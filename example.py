@@ -1,7 +1,5 @@
 # %%
 import matplotlib.pyplot as plt
-import sys
-sys.path.insert(0, '$HOME/observational-data')
 import load_obsdata as obs
 
 cmap = plt.get_cmap("tab10")

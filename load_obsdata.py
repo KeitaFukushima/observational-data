@@ -34,7 +34,11 @@ def load_obsdata(tag, z1, z2):
   """
 
   out = []
-  cmd = "ls -U1 data/"+tag+"/*.csv"
+  rootdir = os.getenv("OBSDATA_DIR")
+  if rootdir == None:
+    print("ERROR: environment variable OBSDATA_DIR is not set")
+    exit()
+  cmd = "ls -U1 "+rootdir+"/data/"+tag+"/*.csv"
   cp = subprocess.run(cmd, capture_output=True, text=True, shell=True)
   fname = cp.stdout.split("\n")
   for f in fname:
