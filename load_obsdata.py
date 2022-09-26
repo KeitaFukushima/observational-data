@@ -23,7 +23,10 @@ def load_obsdata(tag, z1, z2):
     out[i]["y"]: y-axis (average)
     out[i]["y1"]: y-axis (average - sigma)
     out[i]["y2"]: y-axis (average + sigma)
-    out[i]["label"]: label
+    out[i]["label"]: label in format of e.g., Oku+ 21 (z=0)
+    out[i]["author"]: author
+    out[i]["z"]: redshift
+    out[i]["year"]: published year
   
   Examples
   --------
@@ -88,6 +91,9 @@ def load_obsdata(tag, z1, z2):
       "y1" : np.array(y) - np.array(sm),
       "y2" : np.array(y) + np.array(sp),
       "label": author+" "+year[-2:]+" (z="+z+")",
+      "author": author,
+      "z" : z,
+      "year" : year,
     }
 
     out.append(data)

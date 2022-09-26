@@ -12,10 +12,12 @@ d = obs.load_obsdata("SMF", 4, 6)
 
 plt.figure(facecolor="white")
 for i in range(len(d)):
-  plt.plot(d[i]["x"], d[i]["y"], color=lcol[i%ncol], linestyle=lsty[i%nsty], label=d[i]["label"])
-  plt.fill_between(d[i]["x"], d[i]["y1"], d[i]["y2"], color=lcol[i%ncol], alpha=0.3)
+  di = d[i]
+  plt.plot(di["x"], di["y"], color=lcol[i%ncol], linestyle=lsty[i%nsty], label=di["label"])
+  plt.fill_between(di["x"], di["y1"], di["y2"], color=lcol[i%ncol], alpha=0.3)
 plt.xlabel(r"log M$_*$ [M$_\odot$]")
 plt.ylabel(r"log $\Phi$ [dex$^{-1}$ Mpc$^{-3}$]")
 plt.legend()
-plt.show()
+plt.savefig("example.png")
+# plt.show()
 # %%
