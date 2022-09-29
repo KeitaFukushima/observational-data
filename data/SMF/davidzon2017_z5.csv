@@ -1,0 +1,17 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2017A%26A...605A..70D/abstract
+#AUTHOR, Davidzon+
+#YEAR, 2017
+#REDSHIFT, 5
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, from near-IR band of COSMOS2015 catalog includes UltraVISTA-DR2 by VISTA, SPLASH by Spitzer, and Subaru/HSC, Chabrier IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+10.035, -3.762262, 0.0958220237058045 , 0.078454 
+10.268, -3.995448, 0.10997438246075664 , 0.087677 
+10.493, -4.341569, 0.15047801543931172 , 0.111542 
+10.751, -4.721781, 0.3230842277013588 , 0.183201 
+10.950, -4.876683, 0.402786896519145 , 0.205323 
+11.198, -5.177713, 0.8255834266037834 , 0.267307 
+11.457, -5.323841, inf , 0.318308 

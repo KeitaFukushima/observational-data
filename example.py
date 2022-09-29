@@ -10,7 +10,7 @@ def lcol(i):
 def lsty(i):
   return linestyles[i % len(linestyles)]
 
-d = obs.load_obsdata("SMF", 3, 5)
+d = obs.load_obsdata("SMF", 5, 6)
 
 plt.figure(facecolor="white")
 for i in range(len(d)):

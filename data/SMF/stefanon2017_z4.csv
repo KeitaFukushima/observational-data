@@ -7,6 +7,7 @@
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, derived from rest-frame optical LF observed with Spitzer/IRAC over the CANDELS/GOODS-N,S and COSMOS/UltraVISTA fields, Chabrier IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
 11.550, -6.125, 1.176, 0.521
 11.410, -5.824, 0.699, 0.380
 11.260, -5.432, 0.422, 0.258

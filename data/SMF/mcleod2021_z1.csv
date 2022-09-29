@@ -1,12 +1,13 @@
 #REF, https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.4413M/abstract
 #AUTHOR, McLeod+
 #YEAR, 2021
-#REDSHIFT, 1.0
+#REDSHIFT, 1
 #COLUMN1, log M_* [M_sun]
 #COLUMN2, log Phi [dex^-1 Mpc^-3]
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, derived from combination of ground-based UV/optical/near-IR using CFHT, UKIDSS, VISTA, and Subaru/SSC with space-based UV/mid-IR using HST CANDELS catalog and Spitzer/IRAC, Chabrier IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
 7.875 ,  -1.45,  0.13,  0.10
 8.125 ,  -1.53,  0.10,  0.08
 8.375 ,  -1.64,  0.05,  0.04
@@ -23,4 +24,4 @@
 11.125,  -3.25,  0.09,  0.07
 11.375,  -3.86,  0.12,  0.10
 11.625,  -4.93,  0.29,  0.17
-#11.875,  -6.36,  \inf,  0.43
+11.875,  -6.36,  inf,  0.43

@@ -3,18 +3,20 @@ import subprocess
 import os
 
 # TODO: salpeter/chabrier conversion factor 1.7
-def load_obsdata(tag, z1, z2):
+def load_obsdata(key, z1, z2, IMF="Chabrier"):
   """
   returns observational data points
 
   Parameters
   ----------
-  tag: string
-    which statistics to load
+  key: string
+    which data to load
   z1: double
     minimum redshift of data to load
   z2: double
     maximum redshift of data to load
+  IMF: string
+    correct stellar mass for the IMF
   
   Returns
   -------
@@ -33,13 +35,16 @@ def load_obsdata(tag, z1, z2):
   --------
   >>> load_obsdata("SMF", 0, 2)
   """
+    
+  if IMF != "Chabrier" and IMF != "Salpeter":
+    print("Choose IMF from Chabrier or Salpeter")
 
   out = []
   rootdir = os.getenv("OBSDATA_DIR")
   if rootdir == None:
     print("ERROR: environment variable OBSDATA_DIR is not set")
     exit()
-  cmd = "ls -v1 "+rootdir+"/data/"+tag+"/*.csv"
+  cmd = "ls -v1 "+rootdir+"/data/"+key+"/*.csv"
   cp = subprocess.run(cmd, capture_output=True, text=True, shell=True)
   fname = cp.stdout.split("\n")
   for f in fname:
@@ -73,21 +78,48 @@ def load_obsdata(tag, z1, z2):
           yaxis = word[1]
         if word[0] == "#NOTE":
           note = line.lstrip("#")
+        if word[0] == "#IMF":
+          data_imf = word[1]
         
         # skip header
         if word[0][0] == "#":
           continue
         
-        x.append(float(word[0]))
-        y.append(float(word[1]))
-        sm.append(float(word[2]))
-        sp.append(float(word[3]))
-    # file reading done
+        for i in range(4):
+          if word[i] == "inf":
+            word[i] = np.inf
+          else:
+            word[i] = float(word[i])
+        
+        x.append(word[0])
+        y.append(word[1])
+        sm.append(word[2])
+        sp.append(word[3])
+      # end while
+    # end file open
     
     # skip data if out of redshift range
     if float(z) < z1 or float(z) > z2:
       print("Out of redshift range. skipping...")
       continue
+
+    # IMF correction 
+    convert_chabrier_to_salpeter = np.log10(1.7)
+    if key == "SMF":
+      if data_imf != "Chabrier" and data_imf != "Salpeter":
+        print("IMF not found in the header")
+      if IMF == "Salpeter" and data_imf == "Chabrier":
+        x += convert_chabrier_to_salpeter
+      elif IMF == "Chabrier" and data_imf == "Salpeter":
+        x -= convert_chabrier_to_salpeter
+    if key == "SHMR":
+      if data_imf != "Chabrier" and data_imf != "Salpeter":
+        print("IMF not found in the header")
+      if IMF == "Salpeter" and data_imf == "Chabrier":
+        y += convert_chabrier_to_salpeter
+      elif IMF == "Chabrier" and data_imf == "Salpeter":
+        y -= convert_chabrier_to_salpeter
+         
     
     print("Loading data of "+author.replace("+", " et al.")+" ("+year+") at z="+z)
     print("X-axis: "+xaxis+", Y-axis: "+yaxis)

@@ -7,6 +7,7 @@
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, Spitzer/IRAC over the XDF, HUDF, ERS, and all CALDELS fields combined with HST LBGs catalog, Salpeter IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Salpeter
 7.800, -1.648, 0.078, 0.074
 8.200, -1.799, 0.062, 0.059
 8.600, -2.368, 0.064, 0.060

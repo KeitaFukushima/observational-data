@@ -7,6 +7,7 @@
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, UV luminosity function observed with HST by Finkelstein+ (2015) convolved with M_*-M_UV relation obtained from HST imaging by Finkelstein+ (2015) and Spitzer/IRAC data over CANDELS/GOODS/HUDF fields, Salpeter IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Salpeter
 7.25, -1.47, 0.32, 0.35	
 7.75, -1.81, 0.28, 0.23	
 8.25, -2.26, 0.16, 0.21	

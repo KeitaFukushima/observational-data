@@ -7,6 +7,7 @@
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, derived from combination of ground-based UV/optical/near-IR using CFHT, UKIDSS, VISTA, and Subaru/SSC with space-based UV/mid-IR using HST CANDELS catalog and Spitzer/IRAC, Chabrier IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
 8.375 , -1.65, 0.18, 0.13
 8.625 , -1.76, 0.17, 0.12
 8.875 , -1.96, 0.20, 0.14
@@ -21,4 +22,4 @@
 11.125, -3.77, 0.06, 0.06
 11.375, -4.38, 0.12, 0.09
 11.625, -5.30, 0.31, 0.18
-#11.875, -6.23, \inf, 0.36
+11.875, -6.23, inf, 0.36
