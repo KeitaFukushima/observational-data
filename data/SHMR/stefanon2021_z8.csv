@@ -7,6 +7,7 @@
 #COLUMN3, -sigma
 #COLUMN4, +sigma
 #NOTE, Abundance matching of SMF by Stefanon+ (2021) and HMF by Behroozi+ (2013), Salpeter IMF, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)	
+#IMF, Salpeter
 10.710, -2.301, 0.252, 0.152
 10.920, -2.018, 0.250, 0.154
 11.130, -1.796, 0.204, 0.138
