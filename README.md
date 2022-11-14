@@ -29,4 +29,4 @@ plt.close()
 ```
 <img src="./example.png" width=500px>
 
-The figure above is plotted with [this matplotlibrc]("https://gist.github.com/YuriOku/964adda6649e0bbc76de1a8f9010fe1a")
+The figure above is plotted with [this matplotlibrc](https://gist.github.com/YuriOku/964adda6649e0bbc76de1a8f9010fe1a)
