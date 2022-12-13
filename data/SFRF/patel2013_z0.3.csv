@@ -1,0 +1,15 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2013MNRAS.428..291P/abstract
+#AUTHOR, Patel+
+#YEAR, 2013
+#REDSHIFT, 0.3
+#COLUMN1, log SFR [M_sun yr^-1]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFRF converted by Katsianis et al. (2017) from IR luminosity function of Patel+2013 observed by Spitzer. (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+2.068, -4.770, inf, 0.150
+1.668, -3.889, 0.115, 0.074
+1.268, -3.119, 0.065, 0.056
+0.868, -2.759, 0.184, 0.098
+0.470, -2.989, inf, 0.191

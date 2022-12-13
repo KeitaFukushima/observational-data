@@ -1,0 +1,15 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2013MNRAS.432...23G/abstract
+#AUTHOR, Grupponi+
+#YEAR, 2013
+#REDSHIFT, 0.375
+#COLUMN1, log SFR [M_sun yr^-1]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFRF converted by Katsianis et al. (2017) from IR luminosity function of Grupponi+2013 observed by Herschel. (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+2.313, -5.699, inf, 0.301
+1.813, -4.319, 0.113, 0.090
+1.313, -3.149, 0.031, 0.029
+0.813, -2.669, 0.042, 0.038
+0.314, -2.399, 0.127, 0.098

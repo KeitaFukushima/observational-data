@@ -1,0 +1,20 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2007MNRAS.375..931M/abstract
+#AUTHOR, Mauch & Sadler
+#YEAR, 2007
+#REDSHIFT, 0.15
+#COLUMN1, log SFR [M_sun yr^-1]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFRF converted by Katsianis et al. (2017) from Radio luminosity function of Mauch & Sadler 2007 observed by VLA using radio-to-SFR conversion law by Sullivan+ 2001. (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+2.427, -5.699, 0.301, 0.176
+2.027, -5.046, 0.051, 0.046
+1.627, -4.114, 0.023, 0.022
+1.227, -3.449, 0.020, 0.019
+0.827, -2.969, 0.010, 0.010
+0.427, -2.709, 0.020, 0.020
+0.027, -2.509, 0.031, 0.029
+-0.374, -2.549, 0.053, 0.038
+-0.772, -2.219, 0.127, 0.082
+-1.174, -2.559, 0.980, 0.165

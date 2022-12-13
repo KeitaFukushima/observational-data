@@ -1,0 +1,23 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...833..254S/abstract
+#AUTHOR, Smit+
+#YEAR, 2016
+#REDSHIFT, 4
+#COLUMN1, log SFR [M_sun yr^-1]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFRF based on the UV luminosity function (Bouwens+15), UV-magnitude relation (Bouwens+14), and SMC-type dust caribration, (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Salpeter
+-0.760, -1.231, 0.163, 0.118
+-0.330, -1.244, 0.067, 0.058
+-0.010, -1.619, 0.104, 0.084
+0.210, -1.806, 0.072, 0.061
+0.430, -1.916, 0.038, 0.035
+0.650, -2.171, 0.039, 0.036
+0.870, -2.254, 0.034, 0.031
+1.100, -2.419, 0.030, 0.028
+1.320, -2.818, 0.042, 0.039
+1.540, -3.056, 0.046, 0.042
+1.770, -3.524, 0.081, 0.068
+1.990, -4.469, 0.385, 0.201
+2.210, -5.155, inf, 0.359

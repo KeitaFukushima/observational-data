@@ -1,0 +1,18 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...832...56A/abstract
+#AUTHOR, Alavi+
+#YEAR, 2016
+#REDSHIFT, 1.9
+#COLUMN1, log SFR [M_sun yr^-1]
+#COLUMN2, log Phi [dex^-1 Mpc^-3]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFRF converted by Katsianis et al. (2017) from UV luminosity function (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+1.014, -2.750, 0.245, 0.224
+0.513, -2.392, 0.152, 0.146
+0.010, -1.953, 0.089, 0.086
+-0.488, -1.612, 0.059, 0.052
+-0.991, -1.388, 0.056, 0.049
+-1.456, -1.130, 0.074, 0.074
+-1.854, -0.444, 0.080, 0.079
+-2.222, -0.447, 0.219, 0.203
