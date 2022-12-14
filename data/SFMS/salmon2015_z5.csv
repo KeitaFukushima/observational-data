@@ -1,0 +1,16 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2015ApJ...799..183S/abstract
+#AUTHOR, Salmon+
+#YEAR, 2015
+#REDSHIFT, 5
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log SFR [M_sun yr^-1] (median)
+#COLUMN3, -sigma (median absolute deviation, analog to 68% confidence sigma)
+#COLUMN4, +sigma (median absolute deviation, analog to 68% confidence sigma)
+#NOTE, SFR-M_* relation obtained from SED fitting using observational data of CANDELS, HUDF (by HST), and Spitzer Extended Deep Survey. (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Salpeter
+9.000, 0.880, 0.420, 0.420
+9.250, 1.040, 0.380, 0.380
+9.500, 1.120, 0.410, 0.410
+9.750, 1.230, 0.430, 0.430
+10.000, 1.460, 0.310, 0.310
+10.250, 1.620, 0.370, 0.370

@@ -1,0 +1,17 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2011ApJ...730...61K/abstract
+#AUTHOR, Karim+
+#YEAR, 2011
+#REDSHIFT, 0.3
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log SFR [M_sun yr^-1]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFR is estimated from radio luminosity observed by VLA (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+9.450, -0.222, 0.176, 0.067
+9.740, -0.046, 0.051, 0.087
+10.040, 0.079, 0.079, 0.067
+10.350, 0.204, 0.028, 0.051
+10.630, 0.255, 0.051, 0.046
+10.950, 0.342, 0.087, 0.073
+11.200, 0.398, 0.167, 0.064

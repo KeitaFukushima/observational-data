@@ -108,28 +108,33 @@ def load_obsdata(key, z1, z2, IMF="Chabrier", verbose=False):
             continue
 
         # IMF correction
+        if data_imf != "Chabrier" and data_imf != "Salpeter":
+            raise Exception("IMF not found in the header")
+
         convert_chabrier_to_salpeter = np.log10(1.7)
         if key == "SMF":
-            if data_imf != "Chabrier" and data_imf != "Salpeter":
-                raise Exception("IMF not found in the header")
             if IMF == "Salpeter" and data_imf == "Chabrier":
                 x += convert_chabrier_to_salpeter
             elif IMF == "Chabrier" and data_imf == "Salpeter":
                 x -= convert_chabrier_to_salpeter
         elif key == "SHMR":
-            if data_imf != "Chabrier" and data_imf != "Salpeter":
-                raise Exception("IMF not found in the header")
             if IMF == "Salpeter" and data_imf == "Chabrier":
                 y += convert_chabrier_to_salpeter
             elif IMF == "Chabrier" and data_imf == "Salpeter":
                 y -= convert_chabrier_to_salpeter
         elif key == "SFRF":
-            if data_imf != "Chabrier" and data_imf != "Salpeter":
-                raise Exception("IMF not found in the header")
             if IMF == "Salpeter" and data_imf == "Chabrier":
                 x += convert_chabrier_to_salpeter
             elif IMF == "Chabrier" and data_imf == "Salpeter":
                 x -= convert_chabrier_to_salpeter
+        elif key == "SFMS":
+            if IMF == "Salpeter" and data_imf == "Chabrier":
+                x += convert_chabrier_to_salpeter
+                y += convert_chabrier_to_salpeter
+            elif IMF == "Chabrier" and data_imf == "Salpeter":
+                x -= convert_chabrier_to_salpeter
+                y -= convert_chabrier_to_salpeter
+        
 
         pprint("Loading data of "+author.replace("+",
               " et al.")+" ("+year+") at z="+z)

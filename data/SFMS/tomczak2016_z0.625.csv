@@ -1,0 +1,21 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...817..118T/abstract
+#AUTHOR, Tomczak+
+#YEAR, 2016
+#REDSHIFT, 0.625
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log SFR [M_sun yr^-1]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFR-M_* relation obtained from IR observation by Spitzer and Herschel and UV luminosity estimated from SED fitting using EAZY (Brammer+ 2008). (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+8.625, -0.360, 0.040, 0.040
+8.875, -0.160, 0.020, 0.030
+9.125, 0.080, 0.030, 0.030
+9.375, 0.290, 0.030, 0.020
+9.625, 0.550, 0.020, 0.020
+9.875, 0.660, 0.020, 0.020
+10.125, 0.720, 0.030, 0.030
+10.375, 0.810, 0.050, 0.040
+10.625, 0.750, 0.070, 0.060
+10.875, 0.710, 0.050, 0.050
+11.125, 0.650, 0.110, 0.090
