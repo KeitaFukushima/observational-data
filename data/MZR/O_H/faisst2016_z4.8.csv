@@ -1,0 +1,12 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2016ApJ...822...29F/abstract
+#AUTHOR, Faisst+
+#YEAR, 2016
+#REDSHIFT, 4.8
+#COLUMN1, log M_* [M sun]
+#COLUMN2, 12 + log (O/H)
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Gas phase O/H abundance ratio from the measurement of rest-UV absorption EW observed using DEIMOS on the Keck II telescope. (h, Omega m, Omega l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+8.75, 8.05, 0.74, 0.56
+9.50, 8.12, 0.52, 0.33

@@ -1,0 +1,15 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2021ApJ...914...19S/abstract
+#AUTHOR, Sanders+
+#YEAR, 2021
+#REDSHIFT, 2.3
+#COLUMN1, log M_* [M sun]
+#COLUMN2, 12 + log (O/H)
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Gas phase O/H abundance ratio observed by MOSFIRE spectrometer at Keck I telescope combined with stellar mass estimated from SED fitting to CANDELS photometry ranging from rest-frame UV to near-IR. (h, Omega m, Omega l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+9.330, 8.300, 0.020, 0.020
+9.620, 8.410, 0.020, 0.020
+9.890, 8.480, 0.020, 0.020
+10.230, 8.570, 0.010, 0.010
+10.640, 8.640, 0.040, 0.030
