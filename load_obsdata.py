@@ -98,11 +98,9 @@ def load_obsdata(key, z1, z2, IMF="Chabrier", ratio="undef", verbose=False):
             cmd = "ls -v1 "+rootdir+"/data/"+key+"/N_O/*.csv"
         else:
             raise ValueError("Available data of abundance ratio are O/H or N/O")
-    print(cmd)
     cp = subprocess.run(cmd, capture_output=True, text=True, shell=True)
     fname = cp.stdout.split("\n")
     out = []
-    print(fname) #debug
     for f in fname:
         if f == "":
             continue
