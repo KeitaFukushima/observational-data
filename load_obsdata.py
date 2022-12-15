@@ -90,6 +90,10 @@ def load_obsdata(key, z1, z2, IMF="Chabrier", ratio="undef", verbose=False):
     else:
         if ratio == "O/H":
             cmd = "ls -v1 "+rootdir+"/data/"+key+"/O_H/*.csv"
+        elif ratio == "N/H":
+            cmd = "ls -v1 "+rootdir+"/data/"+key+"/N_H/*.csv"
+        elif ratio == "Fe/H":
+            cmd = "ls -v1 "+rootdir+"/data/"+key+"/Fe_H/*.csv"
         elif ratio == "N/O":
             cmd = "ls -v1 "+rootdir+"/data/"+key+"/N_O/*.csv"
         else:

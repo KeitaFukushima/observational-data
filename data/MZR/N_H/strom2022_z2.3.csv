@@ -1,0 +1,13 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2022ApJ...925..116S/abstract
+#AUTHOR, Strom+
+#YEAR, 2022
+#REDSHIFT, 2.3
+#COLUMN1, log M_* [M sun]
+#COLUMN2, 12 + log (N/H) (best-fit)
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Gas-phase N/H abundance ratio derived from observational data from MOSFIRE spectrometer at Keck I telescope using MCMC photoionization method code GalDNA. The points and errors are representatives for best-fit linear relation with one sigma uncertainties. (h, Omega m, Omega l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+8.8, 6.722, 0.114, 0.114
+10, 7.07, 0.03, 0.03
+11.2, 7.418, 0.114, 0.114
