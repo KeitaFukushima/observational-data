@@ -1,7 +1,7 @@
 #REF, https://ui.adsabs.harvard.edu/abs/2021ApJ...922...29S/abstract
 #AUTHOR, Stefanon+
 #YEAR, 2021
-#REDSHIFT, 9
+#REDSHIFT, 10
 #COLUMN1, log M_* [M_sun]
 #COLUMN2, log Phi [dex^-1 Mpc^-3]
 #COLUMN3, -sigma
