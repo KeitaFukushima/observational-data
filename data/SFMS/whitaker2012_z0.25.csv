@@ -1,7 +1,7 @@
 #REF, https://ui.adsabs.harvard.edu/abs/2012ApJ...754L..29W/abstract
 #AUTHOR, Whitaker+
 #YEAR, 2012
-#REDSHIFT, 0-0.5
+#REDSHIFT, 0.25
 #COLUMN1, log M_* [M_sun]
 #COLUMN2, log SFR [M_sun yr^-1]
 #COLUMN3, -sigma
