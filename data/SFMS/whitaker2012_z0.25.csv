@@ -1,0 +1,17 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2012ApJ...754L..29W/abstract
+#AUTHOR, Whitaker+
+#YEAR, 2012
+#REDSHIFT, 0-0.5
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log SFR [M_sun yr^-1]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFR is determined by adding the UB and IR emission (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+9.296, -0.204, 0.267, 0.280
+9.410, -0.082, 0.316, 0.328
+9.550, -0.009, 0.340, 0.353
+9.717, 0.161, 0.328, 0.316
+9.945, 0.258, 0.377, 0.365
+10.207, 0.514, 0.365, 0.365
+10.593, 0.660, 0.365, 0.340
