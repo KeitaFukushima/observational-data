@@ -20,6 +20,11 @@ plt.figure(facecolor="white")
 for di in d:
   plt.plot(di["x"], di["y"], label=di["label"], ms=3)
   plt.fill_between(di["x"], di["y1"], di["y2"], alpha=0.3)
+
+d = obs.load_target_obsdata("SMF", "baldry2012_z0")
+plt.plot(d["x"], d["y"], label=d["label"], ms=3, color="black")
+plt.fill_between(d["x"], d["y1"], d["y2"], alpha=0.3, color="black")
+
 plt.xlabel(r"log M$_*$ [M$_\odot$]")
 plt.ylabel(r"log $\Phi$ [dex$^{-1}$ Mpc$^{-3}$]")
 plt.legend()
