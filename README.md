@@ -2,9 +2,10 @@
 
 Usage
 =====
-Set environment variables as follows
+Clone this repository and set environment variables as follows
 ```
-export OBSDATA_DIR=/absolute/path/to/this/directory
+git clone https://github.com/YuriOku/observational-data.git
+export OBSDATA_DIR=/Users/yuri/Documents/GitHub/observational-data ## SET YOUR PATH
 export PYTHONPATH=$OBSDATA_DIR:$PYTHONPATH
 ```
 
