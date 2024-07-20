@@ -1,0 +1,13 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2023ApJS..269...33N/abstract
+#AUTHOR, Nakajima+
+#YEAR, 2023
+#REDSHIFT, 7
+#COLUMN1, log M_* [M_sun]
+#COLUMN2, log SFR [M_sun yr^-1]
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, SFR-M* relation for z=4-10 galaxies observed by JWST. SFR is estimated from total reddening-corrected Hβ luminosity. (h, Omega_m, Omega_l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier
+7.56, 0.55, 0.38, 0.38
+8.55, 1.02, 0.31, 0.31
+9.27, 1.45, 0.44, 0.44

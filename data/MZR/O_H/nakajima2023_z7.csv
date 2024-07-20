@@ -1,0 +1,13 @@
+#REF, https://ui.adsabs.harvard.edu/abs/2023ApJS..269...33N/abstract
+#AUTHOR, Nakajima+
+#YEAR, 2023
+#REDSHIFT, 7
+#COLUMN1, log M_* [M sun]
+#COLUMN2, 12 + log (O/H)
+#COLUMN3, -sigma
+#COLUMN4, +sigma
+#NOTE, Gas phase mass-metallicity (MZ) relation at z = 4-10 derived with 135 galaxies identified in JWST/NIRSpec data taken from the three major public spectroscopy programs of ERO, GLASS, and CEERS. (h, Omega m, Omega l) = (0.7, 0.3, 0.7)
+#IMF, Chabrier      
+7.60, 7.61, 0.30, 0.30
+8.56, 7.95, 0.20, 0.20
+9.27, 8.03, 0.26, 0.26
